@@ -89,7 +89,7 @@ def _render_size(lines, size, margin, padding):
     cols = max(len(s) for s in lines)
     rows = len(lines)
     if cols * rows == 0:
-        return (0, 0)
+        return (0, 0, 0, 0)
     return (
         cols,
         rows,
